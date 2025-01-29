@@ -81,7 +81,7 @@ The feature extraction process was conducted using the following methodology:
 ---
 
 ## 📈 Plots  
-Plots visualizing the classification results for different categories are available in the **`Plots`** folder.  
+Plots visualizing the ERPs waveform for different categories are available in the **`Plots`** folder.  
 
 ---
 
