@@ -30,8 +30,7 @@ The project focuses on classifying EEG Event-Related Potentials (ERPs) associate
 │   ├── Food.png  
 │   ├── Tools.png  
 │   └── Vehicles.png  
-├── README.md
-└── Tests_and_future_development
+└── README.md
 ```
 
 ---
