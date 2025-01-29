@@ -1,7 +1,7 @@
 # ERP Classification with SVM  
 
 ## 🧠 Introduction  
-This project is part of a Bachelor's thesis developed by Diego Quattrone, Francesco Santambrogio, and Andrea Scarpellini, under the supervision of Letizia Clementi and Francesco Sgherzi for Professor Marco Santambrogio.  
+This project is part of a Bachelor's thesis developed by Diego Quattrone, Francesco Santambrogio, and Andrea Scarpellini, under the supervision of Letizia Clementi and Francesco Sgherzi for Professor Marco Santambrogio at Politecnico di Milano.  
 
 The work was presented at the **45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)**. For more details, please refer to the published article available in this repository.
 
