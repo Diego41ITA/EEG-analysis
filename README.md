@@ -74,6 +74,15 @@ The feature extraction process was conducted using the following methodology:
 
 ---
 
+## 🧑‍💻 Classification details
+The classification task in this project was performed using a Support Vector Machine (SVM), a supervised machine learning algorithm known for its effectiveness in binary classification tasks. SVM works by learning to classify labeled training data to make accurate predictions on unseen, unlabeled data.
+- **One-vs-Rest (OvR) Classification:** Since SVM is inherently a binary classifier, and our task involves multiple visual categories (animals, body parts, food, vehicles, and tools), we employed a One-vs-Rest (OvR) approach. This involves training multiple SVM classifiers, each one distinguishing one category against the rest of the categories. In total, five SVM classifiers were trained, one for each category.
+- **Training and Testing Procedure:** The data for training and testing were standardized, and the dataset was split randomly into training (70%) and testing (30%) subsets. This split was repeated ten times to ensure the robustness of the results. We also performed a tenfold cross-validation to prevent overfitting and to ensure the classifier's generalization ability.
+- **Evaluation Metrics:** The classification performance was evaluated using standard metrics, including accuracy, mean, and standard deviation of predictions across the ten iterations. For comparison, we also evaluated baseline performance using EEG features from the pre-stimulus period (100 to 0 ms), where we expect the classification to be near chance (20% accuracy for five categories). This helps to ensure that the classifier is capturing meaningful patterns rather than noise.
+- **Feature Importance:** To identify which features contributed most to the classification accuracy, we performed a permutation importance analysis. This method involves randomly shuffling a feature's values and measuring the drop in model performance. A significant drop in performance indicates that the feature is important for the model's prediction.
+ 
+---
+
 ## 📊 Results  
 - **Inter-Trial Analysis:** Achieved up to 97% accuracy for visual category classification  
 - **Single-Trial Analysis:** Achieved up to 34% accuracy for "Body parts" category  
