@@ -90,3 +90,7 @@ Plots visualizing the classification results for different categories are availa
 2. Hebart, M. N. et al. *THINGS: A database of 1,854 object concepts and more than 26,000 naturalistic object images.*  
 
 ---
+
+## 📜 License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
